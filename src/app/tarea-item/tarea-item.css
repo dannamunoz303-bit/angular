@@ -1,0 +1,45 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  transition: all 0.2s;
+}
+ 
+.item:hover {
+  background: #f0f0f0;
+}
+ 
+.item.completada .texto {
+  text-decoration: line-through;
+  color: #999;
+}
+ 
+.item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+ 
+.texto {
+  flex: 1;
+  font-size: 15px;
+  color: #333;
+}
+ 
+.btn-eliminar {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+ 
+.btn-eliminar:hover {
+  background: #ffebee;
+}
