@@ -1,0 +1,103 @@
+.tarjeta {
+  max-width: 400px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  font-family: 'Segoe UI', sans-serif;
+}
+ 
+.cabecera {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+ 
+.avatar {
+  width: 60px;
+  height: 60px;
+  background: #3f51b5;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+ 
+.info h2 {
+  margin: 0;
+  font-size: 20px;
+}
+ 
+.profesion {
+  margin: 4px 0;
+  color: #666;
+}
+ 
+.estado {
+  display: inline-block;
+  padding: 4px 10px;
+  background: #ffebee;
+  color: #c62828;
+  border-radius: 12px;
+  font-size: 12px;
+}
+ 
+.estado.activo {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+ 
+.acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+ 
+.acciones button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: opacity 0.2s;
+}
+ 
+.acciones button:hover {
+  opacity: 0.85;
+}
+ 
+.btn-like { background: #ffcdd2; color: #b71c1c; }
+.btn-estado { background: #fff9c4; color: #f57f17; }
+.btn-habilidades { background: #c5cae9; color: #1a237e; }
+ 
+.habilidades {
+  border-top: 1px solid #eee;
+  padding-top: 16px;
+}
+ 
+.habilidades h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
+ 
+.habilidades ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+ 
+.habilidades li {
+  background: #e3f2fd;
+  color: #0d47a1;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+}
